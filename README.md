@@ -3,6 +3,8 @@
 
 This repository provides a complete guide and automation scripts for setting up Windows 11 for Cyber Security and DevOps tasks. Whether you’re a pentester, developer, or security researcher, this project will help you get your environment up and running quickly.
 
+![Windows 11 logo imaage](Stuff/win.png)
+
 ## How to Use
 
 1. **Guides**: Step-by-step instructions on setting up different tools and environments.
