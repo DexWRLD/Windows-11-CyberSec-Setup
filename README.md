@@ -48,6 +48,10 @@ This script installs WSL2 and key Cyber Security tools.
 2. Navigate to the directory where the script is located.
 3. Run the script using the command above.
 
+## Essential Cyber Security Tools Links
+
+Check out the download [links](Tools/Links.md) for download
+
 ## Additional Information
 
 - Ensure that Windows Package Manager (`winget`) is installed and up to date before running the scripts.
