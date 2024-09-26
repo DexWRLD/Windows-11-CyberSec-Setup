@@ -1,10 +1,8 @@
-# Let's create the WSL2_Setup.md file with adjusted markdown syntax
-
-## Installing Windows Subsystem for Linux (WSL2) on Windows 11
+# Installing Windows Subsystem for Linux (WSL2) on Windows 11
 
 WSL2 enables running Linux distributions directly on Windows. Follow the steps below to install WSL2 and set up Kali Linux or Ubuntu.
 
-### Step 1: Enable WSL and Virtual Machine Feature
+## Step 1: Enable WSL and Virtual Machine Feature
 
 1. Open **PowerShell** as Administrator.
 
@@ -16,7 +14,7 @@ WSL2 enables running Linux distributions directly on Windows. Follow the steps b
 
    This installs the default Linux distribution (Ubuntu) and enables the necessary features.
 
-### Step 2: Set WSL Version to 2
+## Step 2: Set WSL Version to 2
 
 1. Check the current WSL version:
 
@@ -30,7 +28,7 @@ WSL2 enables running Linux distributions directly on Windows. Follow the steps b
    wsl --set-version Ubuntu 2
    ```
 
-### Step 3: Install a Preferred Linux Distribution
+## Step 3: Install a Preferred Linux Distribution
 
 - You can install other distributions such as **Kali Linux**:
 
@@ -38,7 +36,7 @@ WSL2 enables running Linux distributions directly on Windows. Follow the steps b
   wsl --install -d kali-linux
   ```
 
-### Step 4: Update and Upgrade Linux
+## Step 4: Update and Upgrade Linux
 
 Once installed, open the Linux distribution and run:
 
