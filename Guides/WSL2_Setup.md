@@ -46,7 +46,7 @@ Once installed, open the Linux distribution and run:
 
 ### Additional Tools
 
-- For an enhanced terminal experience, consider installing [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store.
+- For an enhanced terminal experience, consider installing [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?launch=true&mode=full&hl=en-us&gl=bg&ocid=bingwebsearch) from the Microsoft Store.
 - Install **Oh My Zsh** for better shell functionality:
 
   ```bash
