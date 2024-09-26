@@ -58,6 +58,18 @@ Check out the download [links](Tools/Links.md) for download
 - The scripts may prompt for administrative permissions during installations.
 - Monitor the installation process for any errors.
 
+## Contributing
+
+We welcome contributions to this project! If you'd like to contribute, please follow our [Contributing Guidelines](CONTRIBUTING.md) for instructions on how to get started.
+
+### Ways to Contribute
+
+- **Report Bugs**: If you find any bugs or issues, please open an issue.
+- **Suggest Features**: We welcome suggestions for new features or improvements.
+- **Submit Pull Requests**: Feel free to fork the repository, make changes, and submit a pull request!
+
+Your contributions help make this project better for everyone. Thank you for your support!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
