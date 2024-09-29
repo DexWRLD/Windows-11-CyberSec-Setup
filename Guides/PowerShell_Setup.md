@@ -40,7 +40,7 @@ Then run this command to fix the said issue:
    scoop install oh-my-posh
    ```
 
-3. For further information on that, you can use this great tutorial by Adam Driscoll to further customize it and use it. Link to the video -> https://www.youtube.com/watch?v=OL9Mr4dzIWU&t=32s
+3. For further information on that, you can use this great tutorial by Adam Driscoll to further customize it and use it. [Link to the video](https://www.youtube.com/watch?v=OL9Mr4dzIWU&t=32s)
 
 ## Step 3: Customize PowerShell Theme
 
