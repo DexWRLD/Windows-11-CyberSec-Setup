@@ -93,18 +93,4 @@ To run your scripts without issues, set the execution policy to remote signed:
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 
-## Additional PowerShell Modules for Cyber Security
-
-- **PowerSploit**: A popular post-exploitation framework.
-
-   ```bash
-   Install-Module -Name PowerSploit -Force
-   ```
-
-- **Nishang**: A framework for offensive PowerShell usage.
-
-   ```bash
-   Install-Module -Name Nishang -Force
-   ```
-
 You're now set up with a powerful, customized PowerShell environment for Cyber Security and DevOps tasks!
