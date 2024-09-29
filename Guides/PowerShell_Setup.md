@@ -28,21 +28,19 @@ Then run this command to fix the said issue:
 
 ## Step 2: Install Oh My Posh
 
-1. Run the following command to install Scoop, a command-line installer for Windows **in a non-admin console!!**:
+1. Run the following command to install Oh My Posh:
 
    ```bash
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-   ```bash
-   irm get.scoop.sh | iex
+   winget install JanDeDobbeleer.OhMyPosh -s winget
    ```
 
-2. To verify the installation:
+2. Then run:
 
    ```bash
-   oh-my-posh --version
+   scoop install oh-my-posh
    ```
 
+3. For further information on that, you can use this great tutorial by Adam Driscoll to further customize it and use it -> (Link to the video)[https://www.youtube.com/watch?v=OL9Mr4dzIWU&t=32s]
 ## Step 3: Customize PowerShell Theme
 
 1. Choose a theme from the official [Oh My Posh theme gallery](https://ohmyposh.dev/docs/themes).
