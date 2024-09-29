@@ -12,6 +12,19 @@ While Windows includes PowerShell by default, you can install **PowerShell Core*
    ```bash
    winget install --id Microsoft.Powershell --source winget
    ```
+   
+If you happen to run into an error like this one:
+
+   ```bash
+   Failed when opening source(s); try the 'source reset' command if the problem persists.
+   An unexpected error occurred while executing the command:
+   0x8a15000f : Data required by the source is missing
+   ```
+Then run this command to fix the said issue:
+
+   ```bash
+   Add-AppxPackage -Path https://cdn.winget.microsoft.com/cache/source.msix
+   ```
 
 ## Step 2: Install Oh My Posh
 
