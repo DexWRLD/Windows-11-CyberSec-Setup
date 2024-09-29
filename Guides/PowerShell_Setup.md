@@ -51,6 +51,12 @@ Then run this command to fix the said issue:
    notepad $PROFILE
    ```
 
+   IF you are getting an error, it might be because we have not created the PROFILE file, use this command in that case:
+
+   ```bash
+   New-Item -Path $PROFILE -Type File -Force
+   ```
+
    In the profile file, add this line:
 
    ```bash
