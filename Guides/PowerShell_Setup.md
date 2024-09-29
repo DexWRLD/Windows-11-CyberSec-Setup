@@ -74,12 +74,16 @@ Then run this command to fix the said issue:
    ```bash
    Install-Module -Name PSReadLine -Force
    ```
+   
+   You might need to try the command two times.
 
 2. Add syntax highlighting and autocompletion:
 
    ```bash
    Set-PSReadLineOption -EditMode Windows
    ```
+   
+After that, just close the console and open it again.
 
 ## Step 5: Enable Execution Policy
 
