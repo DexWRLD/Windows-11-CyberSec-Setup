@@ -25,6 +25,8 @@ Then run this command to fix the said issue:
    ```bash
    Add-AppxPackage -Path https://cdn.winget.microsoft.com/cache/source.msix
    ```
+3. In case it's looking strange and not like it was supposed to look like, we have to install the font for it:
+   You have to visit this [website](https://www.nerdfonts.com/) to find the font you need.
 
 ## Step 2: Install Oh My Posh
 
@@ -62,6 +64,8 @@ Then run this command to fix the said issue:
    ```bash
    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\theme-name.omp.json" | Invoke-Expression
    ```
+
+   If it's looking weird and incorrect, you probably have to install a correct font, go to this [website](https://www.nerdfonts.com/font-downloads) and chooes    one that you like, install it and after you have to go to powershell -> settings -> appearence -> and change the font from there after you've installed it
 
 ## Step 4: Install PSReadLine for Better Autocompletion
 
