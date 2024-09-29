@@ -28,10 +28,13 @@ Then run this command to fix the said issue:
 
 ## Step 2: Install Oh My Posh
 
-1. Run the following command to install Oh My Posh:
+1. Run the following command to install Scoop, a command-line installer for Windows **in a non-admin console!!**:
 
    ```bash
-   winget install JanDeDobbeleer.OhMyPosh -s winget
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+   ```bash
+   irm get.scoop.sh | iex
    ```
 
 2. To verify the installation:
